@@ -196,6 +196,7 @@ ul li:hover {
 .flex-div{
     display: flex;
     
+    
 }
 
 .size{
@@ -244,6 +245,38 @@ ul li:hover {
     font-weight: lighter;
 }
 
+.container-flex{
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.first-box{
+    width: calc(70% - 40px);
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    /* debug */
+    background-color: #165bba;
+}
+
+.first-box , .second-box{
+    border-radius: 10px;
+}
+
+.second-box{
+    width:calc(30% - 40px);
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    /* debug */
+    background-color: #ff8f00;
+}
+
 /* Responsive nav-container */
 @media screen and ( max-width:1100px){
     #nav-container{
@@ -270,6 +303,23 @@ ul li:hover {
    .dropdown .fa-bell{
     display: block;
    }
+
+   /* Responsive Aside */
+
+   .container{
+    
+    width:100%;
+}
+
+.big{
+    font-size: 30px;
+}
+
+ul li {
+    padding: 10px 25px;
+}
+
+
   
 }
 /* Responsive nav-container */
@@ -282,7 +332,6 @@ ul li:hover {
        }
  }
  
-
 
 
 
