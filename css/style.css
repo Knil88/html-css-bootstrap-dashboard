@@ -131,7 +131,7 @@ li a {
 .container{
     flex-grow: 1;
     height: 100vh;
-    background-color: chocolate;
+    background-color: #f8f9fa;
     overflow-y: scroll;
     width: calc(100% - 120px);
 }
@@ -140,13 +140,15 @@ li a {
     font-size: 15px;
 }
 #nav-container{
-    width: 100%;
-
-    /* debug */
-    height: 200px;
     background-color: #1b72e8;
     padding-top: 96px;
     padding-left: 10px;
+    padding-right: 124px;
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
 
 }
 .flex-div{
@@ -154,8 +156,8 @@ li a {
     
 }
 
-.flex-div h2{
-    padding-left: 10px;
+.size{
+    font-size: 30px;
 }
 
 .btn , .btn-flex{
@@ -165,6 +167,7 @@ li a {
     cursor: pointer;
     padding: 7px;
     margin-left: 10px;
+    
     
     
 
@@ -183,11 +186,27 @@ li a {
    margin-top: 5px;
 }
 
+.plus{
+    border-radius: 50%;
+    padding: 0px 10px;
+    display: none;
+}
 .adjust{
     align-self: center;
     margin: 5px;
     font-size: 20px;
 }
+
+.no-bold{
+    font-weight: lighter;
+}
+
+/* Responsive nav-container */
+@media screen and ( max-width:1100px){
+    #nav-container{
+        flex-direction: column;
+    }
+ }
 
 /* Responsive  nav-bar */
 
@@ -198,7 +217,25 @@ li a {
    .icon i {
     display: none;
    }
+   /* Responsive nav-container */
+   .bye{
+    display:none;
+   }
+   .plus{
+    display: block;
+   }
+  
 }
+/* Responsive nav-container */
+@media screen and ( max-width:1100px){
+    #nav-container{
+        flex-direction: column;
+    }
+    .more-top{
+        margin-top: 15px;
+       }
+ }
+ 
 
 
 
