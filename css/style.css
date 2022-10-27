@@ -11,6 +11,13 @@ body{
     font-family: sans-serif;
 }
 
+.white{
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
 /* Regole header */
 
 header{
@@ -62,10 +69,7 @@ header{
     display: flex;
 }
 
-.btn{
-    padding: 5px;
-    font-size: 15px;
-}
+
 
 #search-bar {
     border: none;
@@ -91,30 +95,99 @@ header{
 }
 
 aside{
-    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 120px;
     height: 100vh;
-
-    /* Debug */
-    background-color: blueviolet;
+    background-color: #051e34;
+    padding-top:100px ;
 }
+
+ul{
+    list-style: none;
+    
+}
+
+li i{
+    padding-right: 8px;
+    
+}
+
+ul li{
+    
+    padding-bottom: 20px;
+    margin-left: 10px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+
 .container{
     flex-grow: 1;
     height: 100vh;
     background-color: chocolate;
     overflow-y: scroll;
-    width: calc(100% - 100px);
+    width: calc(100% - 120px);
 }
 
+.fa-signal{
+    font-size: 15px;
+}
 #nav-container{
     width: 100%;
 
     /* debug */
-    height: 150px;
-    background-color: cadetblue;
+    height: 200px;
+    background-color: #1b72e8;
+    padding-top: 96px;
+    padding-left: 10px;
+
+}
+.flex-div{
+    display: flex;
+    
+}
+
+.flex-div h2{
+    padding-left: 10px;
+}
+
+.btn , .btn-flex{
+    border-radius:25px;
+    background-color: #165bba;
+    border: none;
+    cursor: pointer;
+    padding: 7px;
+    margin-left: 10px;
+    
+    
 
 }
 
+#no-margin {
 
+    margin-left: 0;
+   
+ 
+}
+
+
+.btn-flex{
+  
+   margin-top: 5px;
+}
+
+.adjust{
+    align-self: center;
+    margin: 5px;
+    font-size: 20px;
+}
 
 /* Responsive  nav-bar */
 
