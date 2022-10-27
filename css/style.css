@@ -23,26 +23,44 @@ header{
 
 #nav-bar-up{
  display: flex;
+ align-items: center;
+ 
+ padding:  10px;
 
+}
+
+.icon  {
+    margin-right:20px ;
+}
+
+.icon i {
+    margin: 5px;
+    color: #5b5858;
+}
+
+.icon .fa-bell:hover{
+    color:#ff8f00;
+}
+
+.bar{
+    width: 80%;
 }
 
 #search-bar {
     border: none;
     background-color: #e5e5e5;
     border-radius: 5px;
-    padding: 0px 15px;
-    width: 70%;
-    height: 20px;
+    padding: 0px 18px;
+    width: 98%;
+    height: 35px;
     
 }
 
-.positioning{
-    position: relative;
-    width: 70%;
-}
 
-.positioning  i{
-    position: absolute;
+
+ i{
+    position: relative;
+    left: 22px;
 }
 
 .wrapper{
