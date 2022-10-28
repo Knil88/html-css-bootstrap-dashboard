@@ -19,8 +19,12 @@ body{
     margin-top: 10px;
     border: 1px solid #d4d4d4;
     border-radius: 10px;
-    width: 90%;
+  
     margin: 15px auto;
+}
+
+.box{
+    width: 90%;
 }
 
 .center{
@@ -276,7 +280,7 @@ ul li:hover {
     border: 1px solid #dee2e6;
 }
 #check{
-    padding-bottom: 10px;
+    padding-bottom:10px
 }
 
 
@@ -557,8 +561,14 @@ ul li {
 
 
  @media screen and ( max-width:1000px){
-  
- 
+  /* parte principale responsive */
+ .container-flex{
+    display:block;
+ }
+
+ .first-box , .second-box{
+    width: 100%;
+ }
  
 
 
