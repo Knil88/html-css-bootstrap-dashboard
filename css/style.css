@@ -153,12 +153,12 @@ ul{
     
 }
 
-li i{
+.aside-item i{
     padding-right: 8px;
     
 }
 
-ul li{
+.aside-list .aside-item{
     
     padding: 10px;
    
@@ -166,7 +166,7 @@ ul li{
 
 }
 
-li a {
+.aside-item a {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -174,7 +174,7 @@ li a {
     
 }
 
-ul li:hover {
+.aside-list li:hover {
     background-color: #e7bcbc;
     
 }
@@ -221,6 +221,9 @@ ul li:hover {
 
 }
 
+.btn:hover , .btn-flex:hover{
+    background-color: lightslategray;
+}
 #no-margin {
 
     margin-left: 0;
