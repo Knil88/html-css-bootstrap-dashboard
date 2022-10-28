@@ -253,7 +253,7 @@ ul li:hover {
 }
 
 .first-box{
-    width: calc(65% - 40px);
+    width: calc(60% - 40px);
     min-height: 300px;
     margin: 10px;
    
@@ -292,7 +292,7 @@ ul li:hover {
   }
  
 .second-box{
-    width:calc(35% - 40px);
+    width:calc(40% - 40px);
     height: 300px;
     margin: 10px;
     
@@ -380,6 +380,46 @@ tr{
   .bg:hover{
     background-color: #e5e5e5;
   }
+
+.faq{
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    
+}
+
+
+
+
+.accordion-item{
+    padding:15px 10px;
+   
+}
+
+.title , .accordion-item{
+    border-bottom: 1px solid #6c757d;
+}
+
+.title{
+    background-color: #f7f7f7;
+   
+}
+
+.title h2 {
+    margin: 10px;
+}
+
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    height: 6em;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+}
+
   /* Responsive table */
 
   @media screen and ( max-width:1200px){
@@ -397,9 +437,10 @@ tr{
     }
 
     .plus{
-        display: block;
+        display:block
     }
  }
+
 
 /* Responsive  nav-bar */
 
