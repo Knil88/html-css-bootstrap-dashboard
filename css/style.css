@@ -25,6 +25,7 @@ body{
 
 .box{
     width: 90%;
+    background-color: white;
 }
 
 .center{
@@ -132,10 +133,15 @@ header{
     display: block;
 }
   
-  
+  /* Regole wrapper e aside */
   
 .wrapper{
     display: flex;
+}
+
+.father-aside{
+    padding: 0px 20px;
+    background-color: #051e34;
 }
 
 aside{
@@ -144,7 +150,7 @@ aside{
     justify-content: space-between;
     width: 120px;
     height: 100vh;
-    background-color: #051e34;
+   
     padding-top:100px ;
 }
 
@@ -190,6 +196,8 @@ ul{
 .fa-signal{
     font-size: 15px;
 }
+/* Regole Nav-container */
+
 #nav-container{
     background-color: #1b72e8;
     padding-top: 96px;
