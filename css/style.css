@@ -263,10 +263,12 @@ ul li:hover {
 }
 
 
-.first-box , .second-box {
+.first-box ,.second-box  {
     border-radius: 10px;
     border: 1px solid #dee2e6;
 }
+
+
 
 .add-class{
     border-bottom: #dee2e6 1px solid ;
@@ -293,18 +295,13 @@ ul li:hover {
  
 .second-box{
     width:calc(40% - 40px);
-    height: 300px;
+    
     margin: 10px;
     
 }
 
-table{
-    font-size: 13px;
-}
 
-tr{
-    border: 1px solid #dee2e6;
-}
+
 
 .col-large{
  width: calc(100% / 5 * 3);
@@ -387,8 +384,27 @@ tr{
     
 }
 
+#check-box{
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    width: 90%;
+    margin:auto;
+    margin-top:10px;
+}
 
+form{
+    font-size: 12px;
+}
 
+.check-it{
+    margin: 10px;
+    font-size: 10px;
+
+}
+
+.t-border{
+    border-top: 1px solid #dee2e6;
+}
 
 .accordion-item{
     padding:15px 10px;
@@ -404,7 +420,7 @@ tr{
    
 }
 
-.title h2 {
+.title h2  {
     margin: 10px;
 }
 
