@@ -431,8 +431,16 @@ form{
 .accordion-item{
     padding:15px 10px;
    
+ 
+   
+}
+.first-arrow{
+margin-left: 49%;
 }
 
+.last-arrow{
+    margin-left: 23%;
+}
 .title , .accordion-item{
     border-bottom: 1px solid#d4d4d4;
 }
