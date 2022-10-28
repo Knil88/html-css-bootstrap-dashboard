@@ -271,6 +271,7 @@ ul li:hover {
 .add-class{
     border-bottom: #dee2e6 1px solid ;
     padding: 10px;
+    background-color: #f7f7f7;
 }
 
 .add-btn {
@@ -307,6 +308,8 @@ tr{
 
 .col-large{
  width: calc(100% / 5 * 3);
+ display: flex;
+ justify-items: center;
 
 }
 
@@ -321,10 +324,40 @@ tr{
     padding-bottom: 10px;
 }
 
+.fa-code {
+    color: white;
+    background-color: #f16450;
+    font-size: 15px;
+    padding: 6px 4px;
+    border: ;
+    border-radius: 50%;
+  }
+
+  .align{
+    align-self: center;
+    padding-left: 5px;
+  }
+
 .row{
     display: flex;
     padding:10px;
+    font-size: 12px;
     
+    
+}
+
+.label{
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.done{
+    background-color: #198754;
+}
+
+
+.action{
     
 }
 /* Responsive nav-container */
