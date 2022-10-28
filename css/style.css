@@ -312,6 +312,7 @@ tr{
 
 .col{
     width: calc(100% /5);
+    padding-left: 25px;
     
 }
 
