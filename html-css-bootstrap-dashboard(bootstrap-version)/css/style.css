@@ -1,4 +1,4 @@
-.wrapper{
+/* .wrapper{
     display: flex;
 }
 
@@ -15,4 +15,18 @@ aside{
     height: 100vh;
    
     padding-top:100px ;
+} */
+
+
+ 
+
+
+
+.form-control{
+    background-color: #e5e5e5;
 }
+<i class="fa-solid fa-list d-md-none d-none  d-lg-flex"></i>
+<i class="fa-solid fa-circle-question d-md-none d-none  d-lg-flex "></i>
+<i class="fa-solid fa-ellipsis-vertical d-md-none d-none d-lg-flex "></i>
+<i class="fa-solid fa-bell"></i>
+
