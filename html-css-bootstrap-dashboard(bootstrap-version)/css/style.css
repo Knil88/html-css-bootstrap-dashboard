@@ -37,4 +37,15 @@ aside{
     color: #5b5858;
 }
 
+.a_side{
+    width: 130px;
+    height: 100vh;
+    background-color: #11283e;
+}
 
+.c_ontainer{
+    width: calc(100% - 130px);
+    background-color: green;
+    height: 100vh;
+    
+}
