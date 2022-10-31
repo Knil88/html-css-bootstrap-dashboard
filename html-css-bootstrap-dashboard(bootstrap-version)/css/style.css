@@ -25,8 +25,14 @@ aside{
 .form-control{
     background-color: #e5e5e5;
 }
-<i class="fa-solid fa-list d-md-none d-none  d-lg-flex"></i>
-<i class="fa-solid fa-circle-question d-md-none d-none  d-lg-flex "></i>
-<i class="fa-solid fa-ellipsis-vertical d-md-none d-none d-lg-flex "></i>
-<i class="fa-solid fa-bell"></i>
+.max_width{
+    width: 100%;
+}
 
+.fa-bell:hover{
+    color:#ff8f00;
+}
+
+.list_item{
+    color: #5b5858;
+}
