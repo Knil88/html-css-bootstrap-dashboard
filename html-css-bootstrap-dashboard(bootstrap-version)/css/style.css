@@ -49,3 +49,16 @@ aside{
     height: 100vh;
     
 }
+
+.boolean_bar{
+    background-color: #1b72e8;
+    height: 120px;
+}
+.w_rapper{
+    padding-top: 75px;
+}
+
+.b_tn{
+    background-color: #165bba;
+    max-height:25px ;
+}
